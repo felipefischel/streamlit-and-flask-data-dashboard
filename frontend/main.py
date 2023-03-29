@@ -196,9 +196,9 @@ elif authentication_status:
         co2_emissions_filtered = sustainability_df.iloc[top_filter_article[0]-1:top_filter_article[1]+1]
 
         # Create chart using altair
-        chart_co2_emissions_per_product = alt.Chart(co2_emissions_filtered, title='CO2 emissions by Product Type').mark_bar(color='#5a6872').encode(
+        chart_co2_emissions_per_product = alt.Chart(co2_emissions_filtered, title='CO2 emissions by Product').mark_bar(color='#5a6872').encode(
             x=alt.X('CO2:Q', axis=alt.Axis(title='CO2 emissions per item (kg CO2)')),
-            y=alt.Y('product_type_name:N', sort='-x', axis=alt.Axis(title='Name of product')),
+            y=alt.Y('product_type_name:N', sort='-x', axis=alt.Axis(title='Product')),
             tooltip=['product_type_name', 'CO2']
         )
 
@@ -211,7 +211,7 @@ elif authentication_status:
         # Create chart using altair
         chart_water_per_product = alt.Chart(water_filtered, title='Water Consumption by Product').mark_bar(color='#00BFFF').encode(
             x=alt.X('Water:Q', axis=alt.Axis(title='Water consumption per item (Litres)')),
-            y=alt.Y('product_type_name:N', sort='-x', axis=alt.Axis(title='Name of product')),
+            y=alt.Y('product_type_name:N', sort='-x', axis=alt.Axis(title='Product')),
             tooltip=['product_type_name', 'Water']
         )
 
@@ -224,7 +224,7 @@ elif authentication_status:
         # Create chart using altair
         chart_total_co2_per_product = alt.Chart(total_co2_filtered, title='Total CO2 emissions by Product').mark_bar(color='#5a6872').encode(
             x=alt.X('total_CO2_emissions:Q', axis=alt.Axis(title='Total CO2 emissions of items sold (kg CO2)')),
-            y=alt.Y('product_type_name:N', sort='-x', axis=alt.Axis(title='Name of product')),
+            y=alt.Y('product_type_name:N', sort='-x', axis=alt.Axis(title='Product')),
             tooltip=['product_type_name', 'total_CO2_emissions']
         )
         # -------------------------------------------------------------------------------------------------
@@ -236,7 +236,7 @@ elif authentication_status:
         # Create chart using altair
         chart_total_water_per_product = alt.Chart(total_water_filtered, title='Total Water Consumption by Product').mark_bar(color='#00BFFF').encode(
             x=alt.X('total_water_consumption:Q', axis=alt.Axis(title='Total water consumption of items sold (Litres)')),
-            y=alt.Y('product_type_name:N', sort='-x', axis=alt.Axis(title='Name of product')),
+            y=alt.Y('product_type_name:N', sort='-x', axis=alt.Axis(title='Product')),
             tooltip=['product_type_name', 'total_water_consumption']
         )
         # -------------------------------------------------------------------------------------------------
