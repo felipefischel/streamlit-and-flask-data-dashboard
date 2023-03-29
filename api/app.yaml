@@ -1,0 +1,23 @@
+runtime: python
+service: api
+env: flex
+
+runtime_config:
+  python_version: 3
+
+entrypoint: gunicorn -b :$PORT main:app
+
+manual_scaling:
+  instances: 1
+resources:
+  cpu: 1
+  memory_gb: 0.5
+  disk_size_gb: 10
+
+env_variables:
+  DB_HOST: '34.175.57.23'
+  DB_USER: 'root'
+  DB_PASS: 'ebnZV$%!CUAt2'
+  DB_NAME: 'capstone_database'
+  DB_PORT: '3306'
+  API_TOKEN: 'wPE&QADG@869k5'

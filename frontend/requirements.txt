@@ -1,0 +1,11 @@
+SQLAlchemy==1.4.40
+streamlit
+pandas
+pymysql
+matplotlib
+requests
+streamlit_option_menu
+altair
+streamlit_authenticator
+pyyaml
+authenticator
