@@ -1,14 +1,12 @@
 # H&M Sustainability Dashboard
 
-<aside>
-📊 [H&M Dashboard](https://frontend-dot-hardy-symbol-376415.oa.r.appspot.com/)
+Project links:
 
-</aside>
+---
 
-<aside>
-🔗 [Flask REST API](https://api-dot-hardy-symbol-376415.oa.r.appspot.com/)
+📊 [**H&M Dashboard**](https://frontend-dot-hardy-symbol-376415.oa.r.appspot.com/)
 
-</aside>
+🔗 [**Flask REST API**](https://api-dot-hardy-symbol-376415.oa.r.appspot.com/)
 
 ## **Overview**
 
