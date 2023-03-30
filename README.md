@@ -6,12 +6,12 @@ Project links:
 
 🔗 [**Flask REST API**](https://api-dot-hardy-symbol-376415.oa.r.appspot.com/)
 
-## Screenshots: 
+## Screenshots:
 
 Homepage:
 <img width="1122" alt="Screen Shot 2023-03-30 at 12 32 23 AM" src="https://user-images.githubusercontent.com/107649745/228956044-25c983ac-a7df-4f6e-939c-0f553c742bcf.png">
 
-Environmental Impact 
+Environmental Impact
 <img width="1032" alt="Screen Shot 2023-03-30 at 12 32 38 AM" src="https://user-images.githubusercontent.com/107649745/228956221-603fa8b6-975f-4096-8259-030e8840db35.png">
 
 Customer Insights
@@ -40,6 +40,18 @@ The dashboard was created using Streamlit and a Flask API that retrieves data fr
 The datasets used in this project come from H&M and include three tables: a customers table, a transactions table, and an articles table. These tables are stored in a Google Cloud SQL database and are retrieved by the Flask API.
 
 I also created an extra dataset that has the "CO2 emissions" and "Water Consumption" of each product. The values in this dataset are very bold approximations and were made for experimentation purposes.
+
+As an example, here's a few lines of the json file I created:
+
+```json
+{
+  "Trousers": {"CO2": 10.2, "Water": 2060},
+  "Dress": {"CO2": 16.8, "Water": 3360},
+  "Sweater": {"CO2": 7.5, "Water": 1500},
+  "T-shirt": {"CO2": 3.6, "Water": 720},
+  "Top": {"CO2": 4.3, "Water": 860}
+}
+```
 
 Given that the three main dataframes from the H&M database contain a large number of entries, loading this data directly in the application would result in large loading times, negatively affecting the user experience. To overcome this issue, I created new dataframes by groping and merging multiple dataframes. By doing so, I created smaller, more manageable dataframes that can be loaded with ease, ensuring a seamless and enjoyable user experience.
 
@@ -92,7 +104,9 @@ The APIs are structured into three parts: Customers, Articles, and Transactions,
 
 ## Streamlit App
 
-The Streamlit app connects to the Flask API and retrieves data from it. It then displays this data in the form of interactive visualizations, allowing the user to explore the sustainability KPIs related to H&M. The app is divided into three tabs: Environmental Impact, Customer Insights, and Economic Performance. Here are screenshot of each tab:
+The Streamlit app connects to the Flask API and retrieves data from it. It then displays this data in the form of interactive visualizations, allowing the user to explore the sustainability KPIs related to H&M. The app is divided into three tabs: Environmental Impact, Customer Insights, and Economic Performance.
+
+I also did some minor changes to the CSS of the Streamlit app so that it would addapt to the look and feel I wanted to achieve.
 
 ### This are the username and passwords currently allowed to login:
 
