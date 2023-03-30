@@ -2,11 +2,28 @@
 
 Project links:
 
----
-
-📊 [**H&M Dashboard**](https://frontend-dot-hardy-symbol-376415.oa.r.appspot.com/)
+📊 [**H&M Sustainability Dashboard**](https://frontend-dot-hardy-symbol-376415.oa.r.appspot.com/)
 
 🔗 [**Flask REST API**](https://api-dot-hardy-symbol-376415.oa.r.appspot.com/)
+
+## Screenshots: 
+
+Homepage:
+<img width="1122" alt="Screen Shot 2023-03-30 at 12 32 23 AM" src="https://user-images.githubusercontent.com/107649745/228956044-25c983ac-a7df-4f6e-939c-0f553c742bcf.png">
+
+Environmental Impact 
+<img width="1032" alt="Screen Shot 2023-03-30 at 12 32 38 AM" src="https://user-images.githubusercontent.com/107649745/228956221-603fa8b6-975f-4096-8259-030e8840db35.png">
+
+Customer Insights
+<img width="1055" alt="Screen Shot 2023-03-30 at 12 32 58 AM" src="https://user-images.githubusercontent.com/107649745/228956296-ef1489eb-2216-4725-8914-e4ca5f42edef.png">
+
+Economic Performance
+
+<img width="779" alt="Screen Shot 2023-03-30 at 12 33 21 AM" src="https://user-images.githubusercontent.com/107649745/228956371-46739c66-4419-4d34-9ad6-4641531d72d8.png">
+
+The app also has a login page were users can authenticate themselves.
+<img width="1011" alt="Screen Shot 2023-03-30 at 10 27 48 PM" src="https://user-images.githubusercontent.com/107649745/228956606-c0df3d9e-77f7-4154-8262-02f10a6d6857.png">
+
 
 ## **Overview**
 
@@ -77,29 +94,7 @@ The APIs are structured into three parts: Customers, Articles, and Transactions,
 
 The Streamlit app connects to the Flask API and retrieves data from it. It then displays this data in the form of interactive visualizations, allowing the user to explore the sustainability KPIs related to H&M. The app is divided into three tabs: Environmental Impact, Customer Insights, and Economic Performance. Here are screenshot of each tab:
 
-![Homepage](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/86bb185f-a1fe-4a97-aedf-ed5541dd8725/Screen_Shot_2023-03-30_at_12.32.23_AM.png)
-
-Homepage
-
-![Environmental Impact](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/977b13ad-3b31-4d12-abef-509dd15a3565/Screen_Shot_2023-03-30_at_12.32.38_AM.png)
-
-Environmental Impact
-
-![Customer Insights](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c5910237-f165-4828-a023-f247ea2b0fd5/Screen_Shot_2023-03-30_at_12.32.58_AM.png)
-
-Customer Insights
-
-![Economic Performance](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3a2f60e4-a91a-4eef-bba5-2b8fcf8e250c/Screen_Shot_2023-03-30_at_12.33.21_AM.png)
-
-Economic Performance
-
-The app also has a login page were users can authenticate themselves.
-
-![Login page](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f7545040-135c-4cff-8ff7-144de2869bc9/Screen_Shot_2023-03-30_at_10.10.36_PM.png)
-
-Login page
-
-This are the username and passwords currently allowed:
+### This are the username and passwords currently allowed to login:
 
 | Username | Password |
 | --- | --- |
