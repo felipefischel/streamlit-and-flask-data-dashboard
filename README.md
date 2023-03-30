@@ -2,11 +2,27 @@
 
 Project links:
 
----
-
 📊 [**H&M Dashboard**](https://frontend-dot-hardy-symbol-376415.oa.r.appspot.com/)
 
 🔗 [**Flask REST API**](https://api-dot-hardy-symbol-376415.oa.r.appspot.com/)
+
+## Screenshots: 
+
+Homepage:
+<img width="1122" alt="Screen Shot 2023-03-30 at 12 32 23 AM" src="https://user-images.githubusercontent.com/107649745/228956044-25c983ac-a7df-4f6e-939c-0f553c742bcf.png">
+
+Environmental Impact 
+<img width="1032" alt="Screen Shot 2023-03-30 at 12 32 38 AM" src="https://user-images.githubusercontent.com/107649745/228956221-603fa8b6-975f-4096-8259-030e8840db35.png">
+
+Customer Insights
+<img width="1055" alt="Screen Shot 2023-03-30 at 12 32 58 AM" src="https://user-images.githubusercontent.com/107649745/228956296-ef1489eb-2216-4725-8914-e4ca5f42edef.png">
+
+Economic Performance
+<img width="779" alt="Screen Shot 2023-03-30 at 12 33 21 AM" src="https://user-images.githubusercontent.com/107649745/228956371-46739c66-4419-4d34-9ad6-4641531d72d8.png">
+
+The app also has a login page were users can authenticate themselves.
+<img width="1011" alt="Screen Shot 2023-03-30 at 10 27 48 PM" src="https://user-images.githubusercontent.com/107649745/228956606-c0df3d9e-77f7-4154-8262-02f10a6d6857.png">
+
 
 ## **Overview**
 
@@ -77,20 +93,6 @@ The APIs are structured into three parts: Customers, Articles, and Transactions,
 
 The Streamlit app connects to the Flask API and retrieves data from it. It then displays this data in the form of interactive visualizations, allowing the user to explore the sustainability KPIs related to H&M. The app is divided into three tabs: Environmental Impact, Customer Insights, and Economic Performance. Here are screenshot of each tab:
 
-Homepage:
-<img width="1122" alt="Screen Shot 2023-03-30 at 12 32 23 AM" src="https://user-images.githubusercontent.com/107649745/228956044-25c983ac-a7df-4f6e-939c-0f553c742bcf.png">
-
-Environmental Impact 
-<img width="1032" alt="Screen Shot 2023-03-30 at 12 32 38 AM" src="https://user-images.githubusercontent.com/107649745/228956221-603fa8b6-975f-4096-8259-030e8840db35.png">
-
-Customer Insights
-<img width="1055" alt="Screen Shot 2023-03-30 at 12 32 58 AM" src="https://user-images.githubusercontent.com/107649745/228956296-ef1489eb-2216-4725-8914-e4ca5f42edef.png">
-
-Economic Performance
-<img width="779" alt="Screen Shot 2023-03-30 at 12 33 21 AM" src="https://user-images.githubusercontent.com/107649745/228956371-46739c66-4419-4d34-9ad6-4641531d72d8.png">
-
-The app also has a login page were users can authenticate themselves.
-<img width="1011" alt="Screen Shot 2023-03-30 at 10 27 48 PM" src="https://user-images.githubusercontent.com/107649745/228956606-c0df3d9e-77f7-4154-8262-02f10a6d6857.png">
 
 ### This are the username and passwords currently allowed:
 
