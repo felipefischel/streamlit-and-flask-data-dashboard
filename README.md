@@ -18,6 +18,7 @@ Customer Insights
 <img width="1055" alt="Screen Shot 2023-03-30 at 12 32 58 AM" src="https://user-images.githubusercontent.com/107649745/228956296-ef1489eb-2216-4725-8914-e4ca5f42edef.png">
 
 Economic Performance
+
 <img width="779" alt="Screen Shot 2023-03-30 at 12 33 21 AM" src="https://user-images.githubusercontent.com/107649745/228956371-46739c66-4419-4d34-9ad6-4641531d72d8.png">
 
 The app also has a login page were users can authenticate themselves.
@@ -93,8 +94,7 @@ The APIs are structured into three parts: Customers, Articles, and Transactions,
 
 The Streamlit app connects to the Flask API and retrieves data from it. It then displays this data in the form of interactive visualizations, allowing the user to explore the sustainability KPIs related to H&M. The app is divided into three tabs: Environmental Impact, Customer Insights, and Economic Performance. Here are screenshot of each tab:
 
-
-### This are the username and passwords currently allowed:
+### This are the username and passwords currently allowed to login:
 
 | Username | Password |
 | --- | --- |
