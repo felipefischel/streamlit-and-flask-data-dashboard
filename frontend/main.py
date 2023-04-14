@@ -65,7 +65,8 @@ elif authentication_status:
         try:
             # url = "http://127.0.0.1:5005/api/" + endpoint // when running the local api
             url = "https://api-dot-hardy-symbol-376415.oa.r.appspot.com/api/"  + endpoint
-            headers = {"Authorization": "Bearer wPE&QADG@869k5"}
+            bearer_token = os.environ['API_TOKEN']
+            headers = {"Authorization": f"Bearer {bearer_token}"}
             response = requests.get(url, headers=headers)
             response_json = response.json()
             data = pd.json_normalize(response_json, "result")
